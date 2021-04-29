@@ -1,0 +1,89 @@
+<html>
+    <head> 
+        <body> 
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.ca%2FOne-Family-George-Shannon%2Fdp%2F0374300038&psig=AOvVaw19AFVfBoP6pArLqfnTA7ou&ust=1619816607501000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDsvZ-tpPACFQAAAAAdAAAAABAD"
+style="width: 30%;" id="family_member_image">
+<h4 id="family_member_name"> </h4> 
+<button onclick="update();">Next</button>
+<script>
+
+
+
+    var images=[
+    https:"//www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.ca%2FOne-Family-George-Shannon%2Fdp%2F0374300038&psig=AOvVaw19AFVfBoP6pArLqfnTA7ou&ust=1619816607501000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDsvZ-tpPACFQAAAAAdAAAAABAD",
+    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.chapters.indigo.ca%2Fen-ca%2Fbooks%2Fwe-are-family%2F9781680100549-item.html&psig=AOvVaw19AFVfBoP6pArLqfnTA7ou&ust=1619816607501000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDsvZ-tpPACFQAAAAAdAAAAABAJ"
+    ];
+    var names=["Family book","family book 2"];
+    var i=0;
+    function update()
+        { 
+            i++;
+            var numbers_of_family_members_in_array="5"\
+            if(i>numbers_of_family_members_in_array)
+            {
+                i=0;
+            }
+            var updatedimage= images[i];
+            var updatedname= names[i];
+            document.getElementById("family_member_image").src=updatedimage;
+            document.getElementById("family_member_name").innerHTML=updatedname;
+
+
+        }
+    
+        
+    
+        
+    
+</script>
+
+
+
+
+
+
+
+
+        </body>
+
+    </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
